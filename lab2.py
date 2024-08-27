@@ -20,6 +20,18 @@ print (a + b)
 """The difference of the operator "+" in these two cases is that + acts as a tool to combine values. In the first case, it is used to add the integer values 3 and 4. However in the second program 3 and 4 act as strings, not number values, so the + operator combines the two strings to make "34"
 """
 
+'''
+a = "3" , b = "4"
+'''
+'''
+it is incorrect because when applying values to a variable, all variables must
+be on the left side of the = operator.
+They can be separated by commas, however the corresponding value must follow
+the order of the variables.
+Like this
+'''
+a, b = "3", "4"
+
 a = "123456"
 sum=0
 for i in a:
