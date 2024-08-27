@@ -43,9 +43,9 @@ print(sum)
 
 a =3
 print("The building has", a, "floors")
-print("The building has"+str(a)+"floors")
+print("The building has "+str(a)+" floors")
 
 """The difference here is in the first print statement you're printing out 3 separate statements that together make one sentence. So the spaces here show that there are separate statements used here.
 
-In the second print statement, you are using the + operator, which before was shown to be the combination operator, in this case, we combine "The building has" "3" and "floors" without any spaces between the statements. This is why we see the sentence output "has3floors", because it combined all the inputs together.
+In the second print statement, you are using the + operator, which before was shown to be the combination operator, we saw in the first problem that this combines the strings to form a statement.
 """
